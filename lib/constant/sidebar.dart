@@ -1,12 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:grupca/settings_page.dart';
+import 'package:grupca/size_config.dart';
 
-import '../size_config.dart';
 
-class SideBar extends StatelessWidget {
+
+class SideBar extends StatefulWidget {
   const SideBar({Key? key}) : super(key: key);
+
+  @override
+  State<SideBar> createState() => _SideBarState();
+}
+
+class _SideBarState extends State<SideBar> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context); //sizeConfig kullanmak için bu gerekli
     return Drawer(
       child: ListView(
         padding: const EdgeInsets.only(top: 50),
@@ -45,7 +58,7 @@ class ListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: getProportionateScreenHeight(55),
+      height: getProportionateScreenHeight(30),
       margin: EdgeInsets.symmetric(horizontal: getProportionateScreenHeight(35))
           .copyWith(bottom: getProportionateScreenHeight(20)),
       padding:

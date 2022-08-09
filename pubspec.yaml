@@ -37,6 +37,7 @@ dependencies:
 
   provider: ^6.0.3
   shared_preferences: ^2.0.15
+  group_radio_button: ^1.2.0
 
 dev_dependencies:
   flutter_test:
