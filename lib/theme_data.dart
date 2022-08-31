@@ -26,7 +26,6 @@ class MyTheme {
         fontWeight: FontWeight.bold,
       ),
     ),
-    primaryColor: Colors.black,
     iconTheme: const IconThemeData(color: Colors.purple),
     inputDecorationTheme: InputDecorationTheme(
         border: OutlineInputBorder(
@@ -45,7 +44,6 @@ class MyTheme {
     scaffoldBackgroundColor: Colors.white,
     colorScheme: const ColorScheme.light(),
     dividerColor: Colors.black,
-    //primaryColor: Colors.white,
     appBarTheme: const AppBarTheme(
       centerTitle: true,
       color: Colors.orangeAccent,

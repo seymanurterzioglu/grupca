@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:grupca/button.dart';
-import 'package:grupca/const.dart';
-import 'package:grupca/constant/theme_data.dart';
-import 'package:grupca/error.dart';
-import 'package:grupca/size_config.dart';
+import 'package:grupca/constant/button.dart';
+import 'package:grupca/constant/const.dart';
+import 'package:grupca/theme_data.dart';
+import 'package:grupca/constant/error.dart';
+import 'package:grupca/constant/size_config.dart';
 import 'package:provider/provider.dart';
 
 class SignIn extends StatefulWidget {
@@ -46,7 +46,7 @@ class _SignInState extends State<SignIn> {
         resizeToAvoidBottomInset: false,
         appBar: AppBar(
           title: Text("Giriş"),
-          toolbarHeight: getProportionateScreenHeight(85),
+          toolbarHeight: getProportionateScreenHeight(65),
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(bottom: Radius.circular(30)),
           ),

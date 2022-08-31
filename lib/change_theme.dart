@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grupca/constant/theme_data.dart';
+import 'package:grupca/theme_data.dart';
 import 'package:provider/provider.dart';
 
 

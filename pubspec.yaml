@@ -42,6 +42,13 @@ dependencies:
   flutter_credit_card: ^3.0.3
   flutter_svg: ^1.1.4
 
+  page_transition: ^2.0.9
+  carousel_slider: ^4.1.1
+
+  syncfusion_flutter_charts: ^20.2.45
+  #numberformat
+  intl: ^0.17.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

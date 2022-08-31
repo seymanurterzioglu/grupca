@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:grupca/size_config.dart';
-import 'constant/sidebar.dart';
+import 'package:grupca/constant/size_config.dart';
+import 'sidebar.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -10,6 +10,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
   @override
   Widget build(BuildContext context) {
     // for the work with sizeconfig
@@ -24,7 +25,27 @@ class _HomePageState extends State<HomePage> {
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(30)),
         ),
       ),
-      body: const Center(child:  Text("sdfcsdfcdsfksdf")),
+      body:Container(
+        child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                 const Icon(
+                  Icons.error,
+                  size: 64,
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(14.0),
+                  child: Text(
+                    'Burası giriş sayfasıdır. Kullanıcıyı karşılayan ilk ekrandır.',
+                    style: TextStyle(
+                        fontSize: 16, color: Colors.grey[700]),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+            )),
+      ),
     );
   }
 }

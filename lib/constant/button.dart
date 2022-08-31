@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:grupca/constant/theme_data.dart';
-import 'package:grupca/size_config.dart';
+import 'package:grupca/theme_data.dart';
+import 'package:grupca/constant/size_config.dart';
 import 'package:provider/provider.dart';
 
 class Button extends StatelessWidget {

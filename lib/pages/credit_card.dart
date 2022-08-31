@@ -3,9 +3,9 @@ import 'package:flutter_credit_card/credit_card_brand.dart';
 import 'package:flutter_credit_card/credit_card_form.dart';
 import 'package:flutter_credit_card/credit_card_model.dart';
 import 'package:flutter_credit_card/credit_card_widget.dart';
-import 'package:grupca/button.dart';
-import 'package:grupca/constant/theme_data.dart';
-import 'package:grupca/size_config.dart';
+import 'package:grupca/constant/button.dart';
+import 'package:grupca/theme_data.dart';
+import 'package:grupca/constant/size_config.dart';
 import 'package:provider/provider.dart';
 
 class CreditCard extends StatefulWidget {
@@ -47,7 +47,7 @@ class _CreditCardState extends State<CreditCard> {
       appBar: AppBar(
         title: const Text('Ödeme'),
         backgroundColor: Colors.transparent,
-        toolbarHeight: getProportionateScreenHeight(85),
+        toolbarHeight: getProportionateScreenHeight(65),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(30)),
         ),

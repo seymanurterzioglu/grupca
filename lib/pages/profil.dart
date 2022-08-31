@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grupca/size_config.dart';
+import 'package:grupca/constant/size_config.dart';
 
 class Profil extends StatelessWidget {
   const Profil({Key? key}) : super(key: key);
@@ -13,7 +13,7 @@ class Profil extends StatelessWidget {
           color: Colors.white,
         ),
         title: const Text('Profil'),
-        toolbarHeight: getProportionateScreenHeight(85),
+        toolbarHeight: getProportionateScreenHeight(65),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(30)),
         ),

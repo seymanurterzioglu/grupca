@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:grupca/constant/change_theme.dart';
-import 'package:grupca/constant/theme_data.dart';
-import 'package:grupca/size_config.dart';
-import 'package:provider/provider.dart';
+import 'package:grupca/change_theme.dart';
+import 'package:grupca/constant/size_config.dart';
+
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({Key? key}) : super(key: key);
@@ -23,7 +22,7 @@ class _SettingsPageState extends State<SettingsPage> {
           color: Colors.white,
         ),
         title: const Text('Ayarlar'),
-        toolbarHeight: getProportionateScreenHeight(85),
+        toolbarHeight: getProportionateScreenHeight(65),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(30)),
         ),
